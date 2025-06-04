@@ -1,0 +1,14 @@
+@import "../App.css";
+
+.split-view {
+    display: flex;
+    height: 90vh;
+}
+
+.gutter {
+    background-color: var(--color-hover);
+}
+
+.gutter:hover {
+    cursor: ew-resize;
+}

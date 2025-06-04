@@ -1,0 +1,32 @@
+@import '../App.css';
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.lift-text {
+    display: inline-block;
+    transition: transform 0.2s ease, text-shadow 0.2s ease;
+}
+
+.nav-link:hover .lift-text,
+.navbar-brand:hover .lift-text {
+    transform: translateY(-2px);
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    color: var(--color-hover);
+}
+
+.logo-img {
+    height: 30px;
+    width: auto;
+    margin-left: 10px;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.navbar-brand:hover .logo-img {
+    transform: translateY(-2px);
+}
