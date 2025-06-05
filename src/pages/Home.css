@@ -1,0 +1,9 @@
+#home-page {
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 25%;
+}
+
+#home-page p, li {
+    font-size: large;
+}

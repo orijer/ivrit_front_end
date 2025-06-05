@@ -15,13 +15,18 @@ function Navbar() {
                 </Link>
                 <ul className="navbar-nav d-flex align-items-center ms-auto">
                     <li className="nav-item">
-                        <Link className="nav-link active fw-bold fs-5 nav-link-custom" to="/docs">
+                        <Link className="nav-link active fw-bold fs-5 nav-link-custom" to="/tutorial">
                             <span className="lift-text"> מדריך </span>
                         </Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link active fw-bold fs-5 nav-link-custom" to="/editor"> 
                             <span className="lift-text"> עורך </span>
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link active fw-bold fs-5 nav-link-custom" to="/docs">
+                            <span className="lift-text"> תיעוד </span>
                         </Link>
                     </li>
                     <li className="nav-item">
