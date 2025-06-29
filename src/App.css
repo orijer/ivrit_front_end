@@ -2,6 +2,8 @@
   --color-primary: #0d6efd;
   --color-hover: rgb(224, 224, 224);
   --color-text-light: #ffffff;
+  --color-text-dark: #000000;
+  --color-text-code: #2e0066;
   --color-background: #f8f9fa;
   --color-shade-background: #d8d6d6;
 }

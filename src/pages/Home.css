@@ -7,3 +7,10 @@
 #home-page p, li {
     font-size: large;
 }
+
+.hero {
+    background-color: #eaf4ff;
+    padding: 60px 20px;
+    text-align: center;
+    width: 100%;
+}
