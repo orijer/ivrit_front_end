@@ -14,7 +14,7 @@ function Editor() {
     const stompClientRef = useRef(null);
 
     useEffect(() => {
-        const socket = new SockJS('https://ivritinterpreterbackenddocker.onrender.com/ws')
+        const socket = new SockJS('https://ivritinterpreter.onrender.com/ws')
         const stompClient = new Client({
             webSocketFactory: () => socket,
             onConnect: (frame) => {
